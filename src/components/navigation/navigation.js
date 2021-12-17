@@ -1,5 +1,4 @@
 
-
 function Navigation({ isSignedIn, onRouteChange }) {
 	
 	const returnRouteChange = evt => onRouteChange('signIn', evt)

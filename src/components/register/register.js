@@ -17,6 +17,7 @@ class Register extends Component{
   handleRegister = async evt => {
 	  evt.preventDefault();
   const {name, email, password} = this.state, body = {name, email, password}
+  
  const userOrError = await getOrSendData('https://smart-vision-ai.herokuapp.com/register', 'POST', body);
  
  if(userOrError.id){

@@ -1,5 +1,7 @@
 import Tilt from "react-tilt";
 import './logo.css';
+// import Heading from "../heading/heading";
+// import '../heading/heading.css'
 
 const Logo = _ => {
   return (
@@ -7,12 +9,14 @@ const Logo = _ => {
       <Tilt
         className="Tilt br2 shadow-2"
         options={{ max: 80 }}
-        style={{ height: 110, width: 100 }}
+        style={{ height: 90, width: 90 }}
       >
-        <div className="Tilt-inner pa3">
-          <img style={{paddingTop: '3px'}} alt="smart brain" src="/images/smart_brain.jpg" width='80' height='70'/>
+        <div className="Tilt-inner pa3"> 
+        {/* { /images/smart_brain.jpg } */}
+          <img alt="smart brain" src="https://mayheptad.github.io/smart-vision-ai_frontend/images/smart_brain.jpg" width='50' height='60'/>
         </div>
       </Tilt>
+      {/* <Heading /> */}
     </div>
   );
 };

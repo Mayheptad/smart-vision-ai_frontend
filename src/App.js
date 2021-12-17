@@ -98,7 +98,7 @@ const imageDataOrError = await getOrSendData('https://smart-vision-ai.herokuapp.
       <div className="App">
         <Particles className="below" params={particlesParams} />
         <Navigation isSignedIn={this.state.isSignedIn} onRouteChange={this.onRouteChange}/>
-        <Logo />
+        <Logo /> 
 		  {this.state.nonSurportedImage ? 
 <h3 style={{backgroundColor: 'black', color: 'white', padding: '5px'}}> Error: It look like you haven't pasted a link to check, or the
 link you pasted is not supported, or is not an image link please Retry 

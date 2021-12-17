@@ -1,0 +1,8 @@
+
+h2.heading {
+    color: black;
+    margin-left: 1%;
+    background: linear-gradient(89deg, #04C8DE 0%, #FF5EDF 100%);
+     display:inline-block;
+    margin: auto;
+}
